@@ -1,2 +1,35 @@
 // Use this file to set SASS variables for @edx/paragon
 // See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
+
+// =============================================================================
+// Color Palette
+// =============================================================================
+
+// Primary Colors
+$primary: #4F46E5;
+$primary-hover: #4338CA;
+
+// Secondary Color
+$secondary: #10B981;
+
+// Accent Color
+$accent: #F59E0B;
+
+// Surface Colors
+$surface-light: #F8FAFC;
+$surface-dark: #0F172A;
+
+// Text Colors
+$text-main: #1E293B;
+
+// =============================================================================
+// Paragon Theme Overrides
+// =============================================================================
+
+// Map primary colors to Paragon variables
+$brand-primary: $primary;
+$brand-secondary: $secondary;
+
+// Background colors
+$body-bg: $surface-light;
+$body-color: $text-main;
